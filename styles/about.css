@@ -33,9 +33,27 @@
 
 @media (max-width: 1199px) {
     .informations__text {
-        width: 690px;
+        max-width: 690px;
+        width: 100%;
         font-size: 35px;
         line-height: normal;
         letter-spacing: -1.05px;
+    }
+}
+
+@media (max-width: 767px) {
+    .informations__text {
+        margin-bottom: 44px;
+        max-width: 346px;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+    }
+
+    .informations__link {
+        padding: 15.207px 28px;
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: -0.48px;
+        border-radius: 3px;
     }
 }

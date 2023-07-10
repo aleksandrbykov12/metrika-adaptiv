@@ -77,3 +77,40 @@
         letter-spacing: -0.9px;
     }
 }
+
+@media (max-width: 767px) {
+    .projects__header {
+        margin-top: 95px;
+    }
+
+    .projects__images {
+        margin-bottom: 49px;
+    }
+
+    .projects__images:last-child {
+        margin-bottom: 60px;
+    }
+
+    .projects__image {
+        margin-bottom: 19px;
+        height: 250px;
+    }
+
+    .projects__title {
+        margin-bottom: 11px;
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+
+    .projects__link {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+    .projects__link-btn {
+        padding: 37px 0;
+        height: 100px;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+    }
+}

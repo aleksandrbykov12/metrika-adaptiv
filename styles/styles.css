@@ -68,6 +68,22 @@ a {
     }
 }
 
+@media (max-width: 767px) {
+    section {
+        margin-bottom: 80px;
+    }
+
+    .container {
+        padding: 0 12px 0 13px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+}
+
 /* @media (max-width: 1199px) {
     .container {
         width: 100%;

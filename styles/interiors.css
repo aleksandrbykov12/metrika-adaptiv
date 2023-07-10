@@ -34,7 +34,8 @@
 
     .interiors__title {
          margin-top: 128px;
-         width: 802px;
+         max-width: 802px;
+         width: 100%;
          font-size: 50px;  
          line-height: 60px;
          letter-spacing: -1.5px;
@@ -43,9 +44,34 @@
     .interiors__image-text {
         left: 42px;
         bottom: 30px;
+        max-width: 430px;
+        width: 100%;
         font-size: 20px;
         line-height: normal;
         letter-spacing: -0.6px;
+    }
+}
+
+@media (max-width: 767px) {
+    .interiors__image {
+        height: 304px;
+    }
+
+    .interiors__title {
+        margin-top: 108px;
+        margin-bottom: 25px;
+        max-width: 336px;
+        font-size: 30px;
+        line-height: 31.621px;
+        letter-spacing: -0.9px;
+    }
+
+    .interiors__image-text {
+        left: 15px;
+        bottom: 22px;
+        max-width: 312px;
+        font-size: 16px;
+        letter-spacing: -0.48px;
     }
 }
 
