@@ -36,7 +36,7 @@
     text-align: center;
     text-decoration: none;
     color: #ad1818;
-    border: 1px solid red;
+    border: 1px solid #ad1818;
 }
 
 .projects__link-btn:hover {
