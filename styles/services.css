@@ -1,47 +1,126 @@
 .services {
-    margin: 0 auto;
-    padding-top: 153px;
+    padding: 150px 0;
     background: #121212;
     color: white;
 }
 
-.services__image-one {
-    margin-bottom: 15px;
-    height: 270px;
-}
-
-.services__image-two {
-    margin-bottom: 11px;
-}
-
-.services__image-three {
-    margin-bottom: 13px;
-}
-
-.services__image-four {
-    margin-bottom: 14px;
-}
-
-.services__text {
-    margin-bottom: 60px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-}
-
-.services__list:last-child {
-    padding-bottom: 159px;
-}
-
-.services__text-two {
-    padding-left: 2px;
-}
-
-.services__text-three {
+.services h2 {
     padding-left: 3px;
 }
 
-.services__last-text {
-    margin-bottom: -7px;
-    padding-left: 4px;
+.services__item {
+    width: calc(50% - 5px);
+}
+
+.services__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px 10px;
+}
+
+.services__image {
+    margin-bottom: 24.94px;
+}
+
+.services__text {
+    padding-left: 6px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+    position: relative;
+}
+
+.img-one::before {
+    padding: 5px 22px;
+    content: 'от 2500₽/м²';
+    position: absolute;
+    left: 30px;
+    top: 31px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    background-color: #ad1818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.img-two::before {
+    padding: 5px 22px 5px 20px;
+    content: 'от 3000₽/м²';
+    position: absolute;
+    left: 30px;
+    top: 31px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    background-color: #ad1818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.img-three::before {
+    padding: 5px 20px;
+    content: 'от 30 000₽/мес';
+    position: absolute;
+    left: 30px;
+    top: 33.85px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    background-color: #ad1818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.img-four::before {
+    padding: 5px 21px;
+    content: '5% от стоимости';
+    position: absolute;
+    left: 30px;
+    top: 33.85px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    background-color: #ad1818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.services__btn {
+    margin-top: 100px;
+    width: 100%;
+    height: 151px;
+    font-family: 'Manrope';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    background: #ad1818;
+    color: #FFF;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.services__btn:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #ad1818;
 }

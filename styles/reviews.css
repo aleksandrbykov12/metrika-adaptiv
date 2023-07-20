@@ -1,0 +1,32 @@
+.reviews__header {
+    margin-bottom: 14px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.35px;
+    color: #000;
+}
+
+.reviews__text {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+    color: #000;
+}
+
+.reviews__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 50px;
+}
+
+.reviews__item {
+    width: 530px;
+}
+
+.reviews__item:last-child {
+    width: 861px;
+}
