@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 1199px) {
+    .projects {
+        margin-bottom: 100px;
+    }
+    
     .projects__images {
         margin-bottom: 80px;
     }
@@ -79,6 +83,10 @@
 }
 
 @media (max-width: 767px) {
+    .projects {
+        margin-bottom: 80px;
+    }
+    
     .projects__header {
         margin-top: 95px;
     }

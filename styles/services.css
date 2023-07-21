@@ -124,3 +124,122 @@
     background: #fff;
     color: #ad1818;
 }
+
+@media (max-width: 1199px) {
+    .services {
+        padding: 150px 0 120px;
+    }
+
+    .services__image {
+        margin-bottom: 15px;
+    }
+
+    .services__text {
+        padding-left: 0;
+        font-size: 25px;
+        letter-spacing: -0.75px;
+    }
+
+    .img-one::before {
+        padding: 7px 26px 6px 27px;
+        left: 32px;
+        top: 31px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .img-two::before {
+        padding: 7px 26px 6px 27px;
+        left: 32px;
+        top: 31px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .img-three::before {
+        padding: 7px 25px 6px 26px;
+        left: 30px;
+        top: 32px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .img-four::before {
+        padding: 7px 29px 6px 29px;
+        left: 32px;
+        top: 32px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .services__btn {
+        margin-top: 80px;
+        padding: 56px 0;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services {
+        padding: 80px 0;
+    }
+
+    .services__items {
+        flex-direction: column;
+        gap: 60px 0;
+    }
+
+    .services__item {
+        width: 100%;
+    }
+
+    .services__image {
+        margin-bottom: 10px;
+    }
+
+    .services__text {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+
+    .img-one::before {
+        padding: 5px 23px 6px 24px;
+        left: 24px;
+        top: 23px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+    
+    .img-two::before {
+        padding: 5px 23px 6px 24px;
+        left: 24px;
+        top: 23px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .img-three::before {
+        padding: 5px 24px 6px 24px;
+        left: 22px;
+        top: 24px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .img-four::before {
+        padding: 6px 26px 5px 26px;
+        left: 24px;
+        top: 24px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .services__btn {
+        margin-top: 60px;
+        padding: 32px 0 36px;
+        height: 96px;
+        border-radius: 3.802px;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+    }
+}
